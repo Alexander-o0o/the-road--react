@@ -12,3 +12,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+body {
+  font: 400 14 px CoreSans, Arial, sans-serif;
+  color: #222;
+
+  background: #f4f4f4;
+}
+
+a {
+  color: #222;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+input {
+  padding: 10 px;
+  margin-right: 10 px;
+  border: 1 px solid #ddd;
+  border-radius: 5 px;
+  outline: none;
+}
+
+button {
+  padding: 10 px;
+  border: 1 px solid #ddd;
+  border-radius: 5 px;
+
+  color: #808080;
+
+  background: transparent;
+
+  cursor: pointer;
+}
+
+button:hover {
+  color: #222;
+}
+
+*:focus {
+  outline: none;
+}
