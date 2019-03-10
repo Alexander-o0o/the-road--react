@@ -7,22 +7,10 @@ form {
 }
 
 button {
-  padding: 7px 10px !important;
+  padding: 7px 10px;
   border: none;
 
-  background-color: lightgray !important;
-}
-
-.button-inline {
-  padding: 10px 10px !important;
-  border: none;
-  border-radius: 8px;
-
-  background-color: lightgray !important;
-}
-
-.button-inline:hover {
-  background-color: skyblue !important;
+  background-color: lightgray;
 }
 
 input {
@@ -33,13 +21,60 @@ input {
   border: solid 2px gold;
 }
 
-.table-row {
+.table {
+  padding: 0 10px;
+}
+
+.table .button-inline {
+  text-align: center;
+
+  padding: 10px 0;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+
+  background-color: lightgray;
+}
+
+.table .button-inline:hover {
+  background-color: skyblue;
+}
+
+.table-header {
+  border-bottom: solid 2px black;
+}
+
+.table .table-header > span {
+  text-align: center;
+
+  line-height: 2.3;
+}
+
+.table .table-header > span > button {
+  overflow: hidden;
+  text-align: left;
+
+  padding: 0;
+  border-radius: unset;
+
+  font-weight: bold;
+  line-height: inherit;
+  text-indent: 5px;
+  text-overflow: inherit;
+
+  background-color: transparent;
+}
+
+.table .table-header > span > .button-active {
+  background-color: gold;
+}
+
+.table .table-row {
   align-items: center;
   justify-content: flex-end;
 
-  padding: 0 10px;
   margin-top: 10px;
   border-radius: 8px;
 
-  background-color: transparent !important;
+  background-color: transparent;
 }
